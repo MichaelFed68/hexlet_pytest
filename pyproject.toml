@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hexlet_pytest"
+version = "0.1.0"
+description = ""
+authors = ["Michael Fedorov <mikhailfedorov1939@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.scripts]
+say-bye = "hexlet_pytest.scripts.say_bye:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
