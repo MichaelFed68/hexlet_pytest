@@ -10,6 +10,7 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 pytest-cov = "^3.0.0"
+flake8 = "^4.0.1"
 
 [tool.poetry.scripts]
 say-bye = "hexlet_pytest.scripts.say_bye:main"
