@@ -1,1 +1,2 @@
+`.. |кубик-рубика| image:: _https://github.com/MichaelFed68/hexlet_pytest/actions/workflows/pyci.yml/badge.svg?branch=main<https://github.com/MichaelFed68/hexlet_pytest/actions/workflows/pyci.yml>`_
 Hey everybody!
